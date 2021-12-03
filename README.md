@@ -14,12 +14,10 @@ Instalação:
 
 Instalar o wamp64
 Inicie o serviço wamp64 após instalação.
------------------------------------------------------------------------
+
 Instalar o composer 
 Após essas duas primeiras instalações entre apague o conteúdo da pasta c:\wamp64\www
 entre no cmd dentro dessa pasta instale o Laravel
-
------------------------------------------------------------------------
 
 Executando Testes
 
