@@ -1,5 +1,5 @@
 <?php
-
+// 
 function dateDiff($start,$end,$format = '%h:%I'){
   $dat1 = date_create($start);
   $dat2 = date_create($end);
@@ -10,24 +10,27 @@ function dateDiff($start,$end,$format = '%h:%I'){
 function newDate($date){
 	return new DateTime($date);
 }
-
+// transforma horas em minutos
 function hoursToMinutes($hours) 
 { 
     list($hours, $minutes) = explode(':', $hours); 
     return $hours * 60 + $minutes; 
 } 
 
+// trasnforma minitos em horas 
+
 function minutesToHours($minutes){
 	$hours = floor($minutes/60);
 	$result = $minutes%60;
 	return ($hours < 10 ? '0'.$hours : $hours).':'.($result < 10 ? '0'.$result : $result) ;
 }
-
+// hora inicial 
 $start= '2021-02-02 19:03';
+// hora final 
 $end = '2021-02-03 06:59';
 
 
-
+// Calcula a diferença entre os horarios
 $data = dateDiff($start,$end);
 
 
