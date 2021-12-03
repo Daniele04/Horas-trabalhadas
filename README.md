@@ -36,15 +36,24 @@ https://127.0.0.1/spahoras (ainda falta o link com funções do index.php da pas
 
 Configurações .env
 
-APP_NAME=HorasTrabalhadas
+APP_NAME=Horastrabalhadas
+
 APP_ENV=local
+
 APP_KEY=base64:h+3qVZXh0YnKB76jpBnoBKJxr3LOYf10KujeAK+zpBQ=
+
 APP_DEBUG=true
+
 APP_URL=http://localhost
 
 DB_CONNECTION=mysql
+
 DB_HOST=127.0.0.1
+
 DB_PORT=3306
+
 DB_DATABASE=horario
+
 DB_USERNAME=root
+
 DB_PASSWORD=
