@@ -15,7 +15,7 @@ class Periodo extends Model
         'entrada',
         'saida',
     ];
-
+// Faltando instrução na model.
     
 
 }
