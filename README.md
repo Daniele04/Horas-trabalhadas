@@ -24,6 +24,8 @@ Executando Testes
 Somente PHP 
  https://127.0.0.1/horastrabalhadas
  
+ Entre no arquivo index.php para colocar o período de horas desejado. (Link com a template não efetuado a tempo)
+ 
 Template incompleto do Laravel 
 Com Laravel já instalado pelo powershel iniciar serviço:
 c:\wamp64\www: php artisan serve 
